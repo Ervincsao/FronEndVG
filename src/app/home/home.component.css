@@ -1,0 +1,94 @@
+.filter-sidebar {
+    width: 30%;
+    min-width: 200px;
+    max-width: 200px;
+    padding: 25px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+  }
+    
+  .filter-sidebar h2 {
+    margin-top: 0;
+  }
+    
+  .filter-group {
+    margin-bottom: 20px;
+  }
+    
+  .filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+    
+  .filter-group select,
+  .filter-group input {
+    width: 75%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    
+  .filter-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+    
+    .filter-button:hover {
+      background-color: grey;
+    }
+    .filter-sidebar {
+        width: 30%;
+        min-width: 200px;
+        max-width: 200px;
+        padding: 25px;
+        background-color: #f0f0f0;
+        border-right: 1px solid #ddd;
+      }
+        
+      .filter-sidebar h2 {
+        margin-top: 0;
+      }
+        
+      .filter-group {
+        margin-bottom: 20px;
+      }
+        
+      .filter-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+        
+      .filter-group select,
+      .filter-group input {
+        width: 75%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+        
+      .filter-button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+        
+        .filter-button:hover {
+          background-color: grey;
+        }
