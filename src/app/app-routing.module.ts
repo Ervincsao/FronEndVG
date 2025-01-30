@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'products', component: ProductsComponent }, // Termékek listája
   { path: 'navbar', component: NavbarComponent }, // Navbar oldal
   { path: 'login', component: LoginComponent }, // Belépési oldal
-  { path: '**', redirectTo: '' } // Ha nincs érvényes útvonal, visszairányít a főoldalra
+  { path: '**', redirectTo: '' } // Ha nincs  útvonal, visszairányít a főoldalra
 
 ];
 

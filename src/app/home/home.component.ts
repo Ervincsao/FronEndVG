@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // Keresés ikon eseménykezelő
+    // Keresés ikon 
     const searchIcon = document.querySelector('.search-icon');
     if (searchIcon) {
       searchIcon.addEventListener('click', () => {
@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
       });
     }
 
-    // Lenyitható menü kezelése
+    // Lenyitható menü
     const menuIcon = document.querySelector('.menu-icon');
     if (menuIcon) {
       menuIcon.addEventListener('click', () => {
