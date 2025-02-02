@@ -4,13 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent }, // A főoldal
-  { path: 'products', component: ProductsComponent }, // Termékek listája
-  { path: 'navbar', component: NavbarComponent }, // Navbar oldal
-  { path: 'login', component: LoginComponent }, // Belépési oldal
-  { path: '**', redirectTo: '' } // Ha nincs  útvonal, visszairányít a főoldalra
+  { path: '', component: HomeComponent },
+  { path: 'products', component: ProductsComponent },
+  { path: 'navbar', component: NavbarComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: '**', redirectTo: '' }
 
 ];
 

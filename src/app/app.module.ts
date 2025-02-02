@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,9 +17,11 @@ import { ProductsComponent } from './products/products.component';
     HomeComponent,
     NavbarComponent,
     LoginComponent,
-    ProductsComponent
+    ProductsComponent,
+    RegisterComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule
