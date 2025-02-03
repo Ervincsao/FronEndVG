@@ -10,6 +10,8 @@ import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './register/register.component';
+import { AccountComponent } from './account/account.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { RegisterComponent } from './register/register.component';
     NavbarComponent,
     LoginComponent,
     ProductsComponent,
-    RegisterComponent
+    RegisterComponent,
+    AccountComponent,
+    SettingsComponent
   ],
   imports: [
     HttpClientModule,
